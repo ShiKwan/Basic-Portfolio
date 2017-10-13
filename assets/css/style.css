@@ -1,0 +1,122 @@
+html,body {
+	height:100%;
+}
+
+body {
+	color:#777777;
+	text-align: center;
+	background: #ffffff;
+	margin:0px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+}
+header {
+	height: 87px;
+	border-bottom: solid #cccccc;
+	width:100%;
+}
+h1, h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+}
+header h1 {
+	width: 20%;
+	float:left;
+	margin:0;
+	padding: 25px 0 25px 0;
+	margin-left: 20%;
+}
+header nav {
+	float:right;
+	padding: 25px 0 25px 0;
+	margin-right: 20%;
+}
+nav a {
+	color:#9a9a9a;
+	font-size:20px;
+	text-decoration: none;
+	padding: 15px 10px 5px 10px;
+	vertical-align: center;
+}
+h1{
+	color:#ffffff;
+	background: #4aaaa5;
+}
+h1 a{
+	text-decoration: none;
+	color:#ffffff;
+}
+h2{
+	color: #4aaaa5;
+	padding-left: 20px;
+}
+main{
+
+
+}
+.image img {
+	width:200px;
+	height:auto;
+	float:left;
+	margin: 25px 25px 25px 25px;
+}
+.container {
+	text-align: left;
+	float:left;
+	width:1600px;
+	padding:0 20% 0 20%;
+	height: 1200px;
+	background-image: url(../images/round.png);
+	background-repeat: repeat;
+	
+}
+.container h2 {
+	text-align: left;
+}
+.container .left {
+	float:left;
+	width: 650px;
+	background: #ffffff;
+	margin: 50px 0 50px 0;
+}
+.container .right {
+	background: #ffffff;
+	margin: 50px 0 50px 0;
+	float:left;
+	width:270px;
+	margin-left: 50px;
+}
+.container .text {
+	line-height: 2;
+	margin: 25px 25px 25px 25px;
+	border-top: solid #cccccc;
+	padding-top: 25px;
+	color: #9a9a9a;
+}
+
+.container .social {
+	margin-bottom: 25px;
+	
+}
+.image-container {
+	border-top: solid #cccccc;
+	margin: 25px 25px 25px 25px;
+	padding-top: 25px;
+}
+.social img {
+	width:65px;
+	height: auto;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width:100%;
+	text-align:center;
+	background: #666666;
+	color: #b7b7b7;
+	height:100px;
+	border-top: solid 8px #4aaaa5;
+}
+.footer p {
+	text-align: center;
+	margin-top:40px;
+}
