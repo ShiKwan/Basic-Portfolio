@@ -29,18 +29,23 @@ header {
 
 h1, h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif; 
+	font-weight: bold;
+	
 }
 h1{
 	color:#ffffff;
 	background: #4aaaa5;
+	font-size: 2em;
 }
 h1 a{
 	text-decoration: none;
 	color:#ffffff;
+
 }
 h2{
 	color: #4aaaa5;
 	padding-left: 20px;
+	font-size:1.5em;
 }
 header h1 {
 	width: 20%;
@@ -179,6 +184,9 @@ nav a:hover{
 	border:none;
 	font-size:20px;
 	margin-left:10px;
+}
+#btnSubmit:hover {
+	background:#5E7F7E; 
 }
 
 form label, form input, form textarea {
